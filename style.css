@@ -18,8 +18,17 @@ html::-webkit-scrollbar-thumb{
   border-radius: 5px;
 }
 
+.red{
+  text-align: left;
+}
 
+.orange{
+  text-align: center;
+}
 
+.yellow{
+  text-align: right;
+}
 .text{
 max-width: 120px;
   text-align: center;
