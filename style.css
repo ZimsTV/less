@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  position: sticky
+  
+}
+
+html::-webkit-scrollbar{
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track{
+  background-color: blueviolet;
+}
+
+html::-webkit-scrollbar-thumb{
+  background-color:yellow;
+  border-radius: 5px;
+}
+
+
+
+.text{
+max-width: 120px;
+  text-align: center;
+  background-color: aquamarine;
+  overflow: hidden;
+padding: 1px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
